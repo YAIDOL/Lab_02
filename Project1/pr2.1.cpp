@@ -8,10 +8,9 @@
 using namespace std;
 
 int main() {
-	double Pi = 4 * atan(1.); // задаємо значення числа пі
-	double a; // задаємо значення a
-	double z1; // задаємо значення z1
-	double z2; // задаємо значення z2
+	double Pi = 4 * atan(1.);
+	double a; 
+	double z1; 
 
 	cout << "a = "; cin >> a;
 	z1 = (sin(4 * a) / (1 + cos(4 * a))) * (cos(2 * a) / (1 + cos(2 * a)));
