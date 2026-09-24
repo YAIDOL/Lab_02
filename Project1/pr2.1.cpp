@@ -10,7 +10,7 @@ using namespace std;
 int main() {
 	double Pi = 4 * atan(1.);
 	double a; 
-	double z1; 
+	double z1;  ///////ffffffffffffffffff
 
 	cout << "a = "; cin >> a;
 	z1 = (sin(4 * a) / (1 + cos(4 * a))) * (cos(2 * a) / (1 + cos(2 * a)));
